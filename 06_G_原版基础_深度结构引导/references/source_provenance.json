@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/lartpang/OVCamo",
+  "commit": "419c16beea40a9cf0458199f1172b8bdd37d505d",
+  "loss_source": "methods/ovcoser/loss.py",
+  "reference_model": "methods/ovcoser/ovcoser.py",
+  "adaptation": "RGB-derived supervised depth features condition ORIGINAL RGPU output modulation; no F modules; not OVCoser reproduction",
+  "teacher_model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "teacher_not_downloaded": true
+}

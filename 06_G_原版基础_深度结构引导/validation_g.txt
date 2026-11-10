@@ -1,0 +1,8 @@
+PASS G: original RGPU initialization, depth-dependent gate effect, attention/gate gradients
+PASS baseline 5 stages, loss/backward, RGB-only inference
+PASS g_aux 5 stages, loss/backward, RGB-only inference
+PASS g_only 5 stages, loss/backward, RGB-only inference
+PASS RGB-only 384x384 forward
+[main_for_image.py] Length of toy: 1
+[main_for_image.py] Length of toy: 1
+PASS actual loader: aligned flip, depth unaffected by color transforms, missing-file rejection

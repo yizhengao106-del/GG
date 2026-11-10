@@ -1,0 +1,21 @@
+{
+  "torch": "2.1.2+cpu",
+  "device": "cpu",
+  "variants": {
+    "baseline": {
+      "parameters": 10283588,
+      "passed": true
+    },
+    "g_aux": {
+      "parameters": 10485993,
+      "passed": true
+    },
+    "g_only": {
+      "parameters": 10485993,
+      "passed": true
+    }
+  },
+  "full_384_forward": true,
+  "real_teacher_tested": false,
+  "performance_verified": false
+}

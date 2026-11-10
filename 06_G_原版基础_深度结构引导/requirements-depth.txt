@@ -1,0 +1,7 @@
+# Optional offline pseudo-depth environment; do not replace training requirements.
+transformers>=4.42,<5
+torch>=2.1
+safetensors
+Pillow
+numpy
+PyYAML
